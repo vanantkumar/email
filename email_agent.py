@@ -17,7 +17,7 @@ Reply:
         "Content-Type": "application/json"
     }
     data = {
-        "model": "sonar",  
+        "model": "pplx-7b-chat",  
         "messages": [
             {"role": "user", "content": prompt}
         ]
