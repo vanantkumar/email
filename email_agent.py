@@ -17,7 +17,7 @@ Reply:
         "Content-Type": "application/json"
     }
     data = {
-        "model": "mistral-7b-instruct",  # You can use another model if preferred
+        "model": "sonar",  
         "messages": [
             {"role": "user", "content": prompt}
         ]
