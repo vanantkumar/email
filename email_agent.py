@@ -29,3 +29,7 @@ Reply:
         return response.json()['choices'][0]['message']['content']
     else:
         return f"❌ Error: {response.status_code} - {response.text}"
+
+
+
+
