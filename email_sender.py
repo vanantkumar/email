@@ -26,3 +26,4 @@ def send_email(recipient, body):
     except Exception as e:
         print("Error sending email:", e)
         return False
+        
