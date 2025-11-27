@@ -8,7 +8,7 @@ st.title("Email Reply Bot")
 
 email_text = st.text_area("Paste the email content you received:", height=300)
 recipient_email = st.text_input("Recipient Email Address")
-tone = st.selectbox("Select response tone", ["Professional", "Friendly"])
+tone = st.selectbox("Select response tone", ["Professional", "Friendly", "Apologetic", "Persuasive"])
 
 if st.button("Generate & Send Email"):
     if not recipient_email:
